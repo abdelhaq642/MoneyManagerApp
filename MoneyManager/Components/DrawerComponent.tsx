@@ -25,6 +25,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   Drawer: {
-    backgroundColor: "blue",
+    backgroundColor: "white",
   },
 });
