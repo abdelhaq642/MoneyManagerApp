@@ -6,7 +6,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 export default function LoginScreen() {
   return (
     <View style={styles.container}>
-      <Text>Hi </Text>
+      <Text>Login</Text>
     </View>
   );
 }

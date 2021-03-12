@@ -7,19 +7,26 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 
 import DrawerComponent from "./Components/DrawerComponent";
 import LoginScreen from "./NavigationScreen/LoginScreen";
+import BottomTabsComponent from "./Components/BottomTabsComponent"
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
+    <>
     <NavigationContainer>
       {/* <Stack.Navigator initialRouteName="Login_Screen">
         <Stack.Screen name="Login_Screen" component={LoginScreen} />
       </Stack.Navigator> */}
-
+     
       <DrawerComponent />
+      
     </NavigationContainer>
+
+    
+
+    </>
   );
 }
 

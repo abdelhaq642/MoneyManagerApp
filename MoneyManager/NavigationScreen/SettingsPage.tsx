@@ -4,13 +4,12 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import BottomTabsComponent from "../Components/BottomTabsComponent";
 
-export default function MainPage() {
+export default function SettingsPage() {
   return (
-   
-      
-      <BottomTabsComponent />
-    
-    
+    <View style={styles.container}>
+      <Text>Settings</Text>
+    </View>
+
     
   );
 }
