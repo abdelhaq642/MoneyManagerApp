@@ -6,7 +6,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 export default function MainPage() {
   return ( 
     <View style={styles.container}>
-      <Text>Settings</Text>
+      <Text>Home</Text>
     </View>  
   );
 }
